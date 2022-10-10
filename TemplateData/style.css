@@ -18,7 +18,7 @@
     background-image: url('loading.gif');
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
 
     width: 200px;
     height: 200px;
@@ -32,6 +32,7 @@ body, html{
 #gameContainer canvas{
     position:absolute;
     transform:translate(-50%, -50%);
+    color:#aaa;
     top:50%;
     left:50%;
 
